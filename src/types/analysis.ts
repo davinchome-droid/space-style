@@ -65,3 +65,14 @@ export interface InteriorAnalysis {
   styleHistory: StyleHistory;
   stylingTips: StylingTip[];
 }
+
+export interface ReferenceImage {
+  id: string;
+  url: string;
+  thumb: string;
+  alt: string;
+  credit: {
+    name: string;
+    link: string;
+  };
+}
